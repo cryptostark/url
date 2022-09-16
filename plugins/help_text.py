@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.DEBUG,
 logger = logging.getLogger(__name__)
 
 import os
-import sqlite3
+#import sqlite3
 
 # the secret configuration specific things
 if bool(os.environ.get("WEBHOOK", False)):
